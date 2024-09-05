@@ -298,8 +298,8 @@ function LoginForm() {
             onFailure={onFailure}
             </>
           }
-          onSuccess={onSuccess}  // Handles successful login
-        onFailure={onFailure}
+        //   onSuccess={onSuccess}  // Handles successful login
+        // onFailure={onFailure}
           cookiePolicy={'single_host_origin'}
           isSignedIn={true}
           scope="https://www.googleapis.com/auth/business.manage"
