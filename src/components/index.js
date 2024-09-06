@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Home from './Home';
-import GoogleMyBusinessReviews from './reviews';
+import GoogleMyBusinessReviews from './books';
 import LogoutButton from "./logout"
 
 function App() {

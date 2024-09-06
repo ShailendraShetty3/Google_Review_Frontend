@@ -1,0 +1,5 @@
+.responsive-image {
+    max-width: 100%;  /* Image won't exceed the container width */
+    height: auto;     /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits without cropping */
+  }
