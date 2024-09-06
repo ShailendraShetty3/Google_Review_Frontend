@@ -41,6 +41,9 @@ import LogoutButton from "./logout"
 import { gapi } from 'gapi-script';
 
 const clientId = "940242726326-13ta80dsv2kq385kbhu2h6bcq7fjv8vc.apps.googleusercontent.com"
+// export const STREET_MAP = `https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=${
+//     import.meta.env.REACT_APP_MAP_TILER_KEY
+//   }`;
 
 const Home = () => {
 
