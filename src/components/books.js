@@ -13,6 +13,8 @@ import {
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { BaseURL } from "../urls/urls"
+
 import "./style.css";
 
 const { TextArea } = Input;
@@ -53,7 +55,7 @@ const BooksList = () => {
   const handleClick = (value) => {
     setCurrentBookId(value);
     axios
-      .get(`http://127.0.0.1:8000/review/?book_id=${value}`)
+      .get(`${BaseURL}review/?book_id=${value}`)
       .then((response) => {
         setReviews(response.data || []);
       })
@@ -88,7 +90,7 @@ const BooksList = () => {
 
     axios
       .post(
-        "http://127.0.0.1:8000/review/",
+        `${BaseURL}review/`,
         {
           book_id: currentBookId,
           review_author: user,
