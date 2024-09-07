@@ -9,11 +9,15 @@ Use `npm install` command to install all the dependancies.
 if it doesn't work use `npm install --force`.
 
 Change the `REACT_APP_BOOKS_KEY` in the .env file with your API Key from google cloud console.
+
 Change the `REACT_APP_GOOGLE_CLIENT_ID` in the .env file with your Client Id from google cloud console.
+
 Currently i have kept my Client Id and API Key you have to change it to your respective keys.
 
 To run the application use `npm start`
+
 Note You have to run the application in the same port which you have mentioned in the cloud console while getting the API Key.
+
 Note You have to login with the same account mentioned in the google cloud console as a valid user.
 
 
